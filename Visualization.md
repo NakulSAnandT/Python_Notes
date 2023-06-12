@@ -1,9 +1,9 @@
 Seaborn : 
 --------------------------------------------------------------------------------------------
 - **Line chart** : sns.lineplot(data = df)
-
+ # use squared bracket when mentioning a dataframe column
 plt.figure(figsize = (20,20))
-sns.lineplot(data = df(Column name)) # use squared bracket when mentioning a column
+sns.lineplot(data = df(Column name))
 sns.lineplot(data = df(column name 2))
 plt.xlabel('')
 plt.ylabel('')
