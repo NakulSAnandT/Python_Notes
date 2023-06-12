@@ -4,23 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "9d8f1f1c1d149e45",
+        "id": "a4712d103fd0ce33",
         "type": "tabs",
         "children": [
           {
-            "id": "e95e11baf5afd849",
+            "id": "41e0803d6464357c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Visualization.md",
+                "mode": "source",
+                "source": true
+              }
             }
           },
           {
-            "id": "958ade2806f1048d",
+            "id": "2560b2fc6a0ce73a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Univariate analysis.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -90,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Univariate analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Univariate analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Univariate analysis.md"
+              }
             }
           }
         ]
@@ -139,18 +151,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "homepage:Open homepage": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "958ade2806f1048d",
+  "active": "2560b2fc6a0ce73a",
   "lastOpenFiles": [
-    "Home.md",
-    "Python - Analytics and Science (Cheat sheet) 1.md"
+    "Visualization.md",
+    "Univariate analysis.md",
+    "Python - Analytics and Science (Cheat sheet) 1.md",
+    "Home.md"
   ]
 }
