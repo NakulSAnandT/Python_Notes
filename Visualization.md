@@ -21,10 +21,8 @@ plt.title('')
 ----------------------------------------------------------------------
 - **Regression plot** : sns.regplot(x = df(column1), y = (col2), data = df)
 ----------------------------------------------------------------------
-- **Implot** : sns.lmplot(x="pricepercent", y="winpercent", hue="chocolate", 
------------------------------------------------------------------------
-- data=candy_data) # to build multiple regression line
------------------------------------------------------------------------
+- **Implot** : sns.lmplot(x="pricepercent", y="winpercent", hue="chocolate",data=candy_data) # to build multiple regression line  
+----------------------------------------------------------------------- 
 - **Swarmplot:** sns.swarmplot(x=candy_data()'chocolate) y=candy_data(winpercent))
 -----------------------------------------------------------------------
 - **KDE Plot**: sns.kdeplot(data=iris_data('Petal Length (cm)'], shade=True)
