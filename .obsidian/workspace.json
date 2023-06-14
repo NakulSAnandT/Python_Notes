@@ -4,22 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "8fe7eccf146a1a02",
+        "id": "ec1c88e5304cbd2c",
         "type": "tabs",
         "children": [
           {
-            "id": "280bf59c1e4a89dd",
+            "id": "acc96d6e1003490d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Visualization.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
+          },
+          {
+            "id": "06b893775291ab79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bivariate Analysis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0dfb6c1147f581a2",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Visualization.md",
+                "file": "Bivariate Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Visualization.md",
+                "file": "Bivariate Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Visualization.md"
+                "file": "Bivariate Analysis.md"
               }
             }
           }
@@ -147,11 +168,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "280bf59c1e4a89dd",
+  "active": "06b893775291ab79",
   "lastOpenFiles": [
-    "Univariate analysis.md",
-    "Visualization.md",
+    "Data preprocessing.md",
     "Home.md",
-    "Python - Analytics and Science (Cheat sheet) 1.md"
+    "Multivariate Analysis.md",
+    "Univariate analysis.md",
+    "Python - Analytics and Science (Cheat sheet) 1.md",
+    "Visualization.md",
+    "Bivariate Analysis.md"
   ]
 }

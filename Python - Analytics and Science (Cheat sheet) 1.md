@@ -11,6 +11,8 @@ pd.read_html(url) # Parses an html URL, string or file and extracts tables to a 
 pd.read_clipboard() # Takes the contents of your clipboard and passes it to read_table()
 pd.DataFrame(dict) # From a dict, keys for columns names, values for data as lists
 
+-----------------------------------------------------------------------------------
+
 # Exploring Data
   
 1. **df.shape()** # Prints number of rows and columns in dataframe 
@@ -28,10 +30,10 @@ pd.DataFrame(dict) # From a dict, keys for columns names, values for data as lis
 13. **df.min()** # Returns the lowest value in each columns 
 14. **df.median()** # Returns the median of each column 
 15. **df.std()** # Returns the standard deviation of each column|
+--------------------------------------------------------------------------------------------
 
 # Selection
 
-  
 1. **df[col]** # Returns column with label col as Series 
 2. **df[  col1, col2 ]**  # Returns Columns as a new DataFrame 
 3. **s.iloc[0]** # Selection by position (selects first element) 
@@ -41,6 +43,7 @@ pd.DataFrame(dict) # From a dict, keys for columns names, values for data as lis
 6. **df.iloc[0,0]** # First element of first column  - index based data selecting method
 	ex: df.iloc[[1,2,3,] ]
 	ex: df.iloc[1:][df['genre'] == 'Action ']
+--------------------------------------------------------------------------------------
 
 # Data cleaning
 Contains Renaming ,checking for null values, dropping null values, filling null values, conversion of datatypes, setting index.
@@ -65,6 +68,7 @@ Contains Renaming ,checking for null values, dropping null values, filling null 
 14. **s.replace([1,3],['one','three'])** # Replaces all 1 with 'one' and 3 with 'three'
 #setting_index
 15. **df.set_index('column_one')** # Changes the index
+----------------------------------------------------------------------------------------
 
 # Filter, Sort and Grouping
 
